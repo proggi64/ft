@@ -9,9 +9,11 @@
             "type": "php",
             "request": "launch",
             "port": 9003,
-            //"pathMappings": {
-            //    "/Volumes/web/ft": "${workspaceFolder}/ft"
-            //}
+            "pathMappings": {
+                "/volume1/web/ft": "${workspaceFolder}",
+                //"\\\\loftserver\\web\\ft": "${workspaceFolder}\\ft"
+            },
+            "log":true
         },
         {
             "name": "Launch currently open script",
