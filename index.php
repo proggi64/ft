@@ -8,10 +8,8 @@ require_once('lib/ftDatabase.php');
 require_once('lib/ftPart.php');
 
 $db = new ftDatabase();
+$parts = new ftPart($db);
+$parts->Test();
 
 printf("Success... %s\n", $db->host_info);
-
-$parts = new ftPart($db);
-
-xdebug_info();
 ?>

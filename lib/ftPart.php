@@ -1,10 +1,16 @@
 <?php
 
-class ftPart {
-    private mysqli $db;
+require_once('ftTableBase.php');
 
-    public function __construct(mysqli $database) {
-        $this->db = $database;
+/**
+ * Repräsentiert die Tabelle Part.
+ */
+class ftPart extends ftTableBase {
+    private const TABLENAME = 'Part';
+
+    public function Test()
+    {
+        echo $this->db->stat() . '<p>';
     }
 }
 ?>

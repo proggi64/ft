@@ -11,9 +11,8 @@
             "port": 9003,
             "pathMappings": {
                 "/volume1/web/ft": "${workspaceFolder}",
-                //"\\\\loftserver\\web\\ft": "${workspaceFolder}\\ft"
             },
-            "log":true
+            //"log":true
         },
         {
             "name": "Launch currently open script",
