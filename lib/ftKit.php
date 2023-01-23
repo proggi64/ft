@@ -1,7 +1,7 @@
 <?php
 
-class ftKit
-{
+class ftKit extends ftTableBase {
+    private const TABLENAME = 'Kit';
 
 }
 

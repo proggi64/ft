@@ -1,7 +1,7 @@
 <?php
 
-class ftCategory
-{
+class ftCategory extends ftTableBase {
+    private const TABLENAME = 'Category';
     
 }
 ?>
