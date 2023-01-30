@@ -12,5 +12,26 @@ class ftPart extends ftTableBase {
     {
         echo $this->db->stat() . '<p>';
     }
+
+    public function Create(array $data)
+    {
+        [$partNo, $description, $comment, $price] = $data;
+        //string $sql = "CALL ";
+    }
+
+    public function Read(int $id)
+    {
+        
+    }
+
+    public function Update(int $id, array $data)
+    {
+        [$partNo, $description, $comment, $price] = $data;
+    }
+
+    public function Delete(int $id)
+    {
+
+    }
 }
 ?>
